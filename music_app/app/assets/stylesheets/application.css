@@ -13,3 +13,97 @@
  *= require_tree .
  *= require_self
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+body {
+    background-color: #343030;
+}
+
+h1, h2 {
+    font-family: 'Bungee Inline';
+    display: block;
+    text-align: center
+}
+
+h1 {
+    font-size: 75px;
+    color: #FDDB61;
+}
+
+h2 {
+    font-size: 40px;
+    color: #39BAAC;
+}
+
+a, input[type='submit'] {
+    display: block;
+    text-decoration: none;
+    background-color: skyblue;
+    color: #000;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-sizing: content-box;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+}
+
+a:hover, input[type='submit']:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: baseline;
+}
+
+p {
+    color:white;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    padding-right: 10px;
+    color: white;
+}
+
+
+
+.form p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color:white;
+    text-align: center;
+}
+
+.log_out {
+    display: block;
+    float: left;
+}
+
+li {
+    display: block;
+    list-style: none;
+    color: white;
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 18px;
+}

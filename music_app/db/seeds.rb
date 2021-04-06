@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+angela = User.create!(email: 'angelaturi99@gmail.com', password: 'password')
+megan = User.create!(email: 'mmcnulty@appacademy.io', password: 'password')
+
+maggie_rogers = Band.create!(name: 'Maggie Rogers')
+beatles = Band.create!(name: 'The Beatles')
+
+
